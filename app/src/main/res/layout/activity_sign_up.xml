@@ -115,10 +115,21 @@
             android:layout_height="@dimen/_50sdp"
             android:layout_marginTop="@dimen/_16sdp"
             android:text="@string/sign_up"
-            android:textColor="@color/primary_dark"
+            android:textColor="#FFFFFFFF"
+            android:background="#1C2E46"
             android:textSize="@dimen/_13ssp"
             android:textAlignment="center"
             app:cornerRadius="@dimen/_8sdp" />
+
+        <TextView
+            android:id="@+id/textSignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Sign In"
+            android:textColor="@color/primary"
+            android:textSize="@dimen/_13ssp"
+            android:textStyle="bold"  />
 
 
 
