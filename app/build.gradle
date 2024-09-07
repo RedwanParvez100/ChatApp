@@ -47,4 +47,18 @@ dependencies {
 
     // Rounded ImageView
     implementation 'com.makeramen:roundedimageview:2.3.0'
+
+    dependencies {
+        implementation "org.jetbrains.kotlin:kotlin-stdlib:1.8.22"
+        implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22" // Ensure these are the same version
+    }
+
+    android {
+        compileSdkVersion 34 // Use a compatible version with your dependencies
+        defaultConfig {
+            minSdkVersion 21  // Make sure this is not lower than what your dependencies require
+            targetSdkVersion 34
+        }
+    }
+
 }
