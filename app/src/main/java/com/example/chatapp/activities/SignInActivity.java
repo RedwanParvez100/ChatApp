@@ -23,7 +23,7 @@ public class SignInActivity extends AppCompatActivity {
         binding.textCreateNewAccount.setOnClickListener(v->
                 startActivity(new Intent(getApplicationContext(), SignUpActivity.class)));
     }
-    
+
 }
 
 
