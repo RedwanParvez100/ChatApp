@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.chatapp.databinding.ActivitySignInBinding;
 
+
 public class SignInActivity extends AppCompatActivity {
 
     private ActivitySignInBinding binding;
@@ -25,5 +26,6 @@ public class SignInActivity extends AppCompatActivity {
     }
 
 }
+
 
 
