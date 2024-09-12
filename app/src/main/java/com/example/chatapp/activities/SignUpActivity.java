@@ -126,7 +126,7 @@ public class SignUpActivity extends AppCompatActivity {
         } else if (binding.inputEmail.getText().toString().trim().isEmpty()) {
             showToast("Enter email");
             return false;
-        } else if (!Patterns.EMAIL_ADDRESS.matcher(binding.inputEmail.getText().toString().matches())) {
+        } else if (!Patterns.EMAIL_ADDRESS.matcher(binding.inputEmail.getText().toString()).matches()) {
             showToast("Enter valid image");
             return false;
         } else if (binding.inputPassword.getText().toString().trim().isEmpty()) {
