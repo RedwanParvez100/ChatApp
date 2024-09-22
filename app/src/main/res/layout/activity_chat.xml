@@ -82,6 +82,8 @@
         android:layout_height="wrap_content"
         android:background="#008000"
         android:padding="@dimen/_2sdp"
+        android:text="@string/online"
+        android:gravity="center"
         android:textColor="@color/white"
         android:textSize="@dimen/_10ssp"
         android:visibility="gone"
